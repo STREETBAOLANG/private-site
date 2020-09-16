@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento';
+  font-size: 500%;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.snowboarding_image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.kitesurfing_image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile_image {
+  margin-top: 50px;
+}
+
+
+#title {
+  font-weight: normal;
+  line-height: 4;
+}
