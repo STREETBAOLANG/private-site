@@ -1,26 +1,50 @@
 body {
+  color: #40514e;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 30px auto 0 auto;
   font-family: 'Sacramento';
   font-size: 500%;
   color: #66bfbf;
 }
 
 h2 {
-  font-family: 'Montserrat';
-  font-size: 1.5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
   font-weight: bold;
   color: #66bfbf;
+  padding: 20px;
 }
 
 h3 {
   font-family: 'Montserrat';
   color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e1f6f6;
 }
 
 .top-container {
@@ -29,22 +53,14 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
-
-}
-
-.bottom-container {
-
-}
-
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 250px;
   top: 40px;
 }
 
@@ -60,13 +76,13 @@ h3 {
 }
 
 .snowboarding_image {
-  width: 20%;
+  width: 30%;
   float: left;
   margin-right: 30px;
 }
 
 .kitesurfing_image {
-  width: 20%;
+  width: 30%;
   float: right;
   margin-left: 30px;
 }
@@ -75,6 +91,48 @@ h3 {
   margin-top: 50px;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact_message {
+  width: 40%;
+  margin: 30px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #66bfbf 5%, #11cdd4 100%);
+	background-color:#66bfbf;
+	border-radius:41px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size:17px;
+	padding:16px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin: 30px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11cdd4 5%, #7892c2 100%);
+	background-color:#11cdd4;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
 
 #title {
   font-weight: normal;
